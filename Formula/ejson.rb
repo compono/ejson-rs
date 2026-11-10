@@ -9,22 +9,22 @@ class Ejson < Formula
   on_macos do
     on_arm do
       url "https://github.com/runlevel5/ejson-rs/releases/download/v#{version}/ejson-#{version}-aarch64-apple-darwin.tar.xz"
-      sha256 "b4dfbb2988a32f3fd731ced1f885233608c95d554e8f36e8065088f9d5fbb0f6"
+      sha256 "c397d47e1d445fa6e547929335906614259ce136ba75cad3e6fc9eb7ccfaf62a"
     end
     on_intel do
       url "https://github.com/runlevel5/ejson-rs/releases/download/v#{version}/ejson-#{version}-x86_64-apple-darwin.tar.xz"
-      sha256 "dea6c55b645463fe69d23502f248121feb4180b7620c5e958c40d847b77f1ca0"
+      sha256 "cc2bebd0fa470df10b8bf97f3a8ce51b74730a549329018ed6e82d067b853db3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/runlevel5/ejson-rs/releases/download/v#{version}/ejson-#{version}-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f3384dea7622721c3fd6701a8c22f035e1f01d4738f1cf40cf2f05cb2c790e52"
+      sha256 "43c713dcc86d2b42f5a998ae4c592bf768f995cf0a64ee77557343f7936ff872"
     end
     on_intel do
       url "https://github.com/runlevel5/ejson-rs/releases/download/v#{version}/ejson-#{version}-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2e117fe7c2d5f87111b6114b478b548f4581e81dbdb574c3a50a5d3b02fb7197"
+      sha256 "c00cbff6d9a4204a1067f38f745feb2b5f18a378080b1b8997674737454bee4e"
     end
   end
 
