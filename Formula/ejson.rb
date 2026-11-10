@@ -3,28 +3,28 @@
 class Ejson < Formula
   desc "Manage encrypted secrets using public key encryption"
   homepage "https://github.com/runlevel5/ejson-rs"
-  version "1.0.6"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/runlevel5/ejson-rs/releases/download/v#{version}/ejson-#{version}-aarch64-apple-darwin.tar.xz"
-      sha256 "bc84a2a9704d86161e15e335fa965ad1f39d0fd1ff5948883bf16d63b1ed7f8e"
+      sha256 "bcf30de1d16e8faa3bfa3d0684f3ce3a911ff2b7463e9e2e3874446a6d745bac"
     end
     on_intel do
       url "https://github.com/runlevel5/ejson-rs/releases/download/v#{version}/ejson-#{version}-x86_64-apple-darwin.tar.xz"
-      sha256 "498369e8945927b33f2586317fbfe5101e1f5bdf1033f3666ec4045907004697"
+      sha256 "d5ab7cc6552f7582891c8bad71b78820d121d03461fc2b9d0e8e204b4b2d6079"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/runlevel5/ejson-rs/releases/download/v#{version}/ejson-#{version}-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b0cabda44d73137972d5a90eacdaaa0fa3e74a7ba63c84119037586b7431cb8c"
+      sha256 "09907b59c786bd884f3345d7cb204261292e2f33a6d8053a500a4a90b8ce0fcd"
     end
     on_intel do
       url "https://github.com/runlevel5/ejson-rs/releases/download/v#{version}/ejson-#{version}-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f52f34643754849e6bf8101dea58859adf7a2330b66bbcd58ccff2c32967b1e3"
+      sha256 "a6c684ee8a4101967d6244f55ce2bbadad4b905b1833dc48df527e7fecc7bea0"
     end
   end
 
